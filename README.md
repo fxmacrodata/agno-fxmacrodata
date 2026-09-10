@@ -1,10 +1,12 @@
 # FXMacroData for Agno
 
-Give Agno agents official macroeconomic history, release calendars and sourced market context. The USD catalogue, macro history and release calendar work without an API key, account or credit card.
+Give Agno agents official macroeconomic history, release calendars and sourced market context for economic research and trading workflows.
+
+[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=agno_subscribe) for non-USD data, full available history, FX, commodities and positioning. Use the public USD workflow to evaluate the integration before connecting your subscription.
 
 [Explore FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=agno_readme) · [API documentation](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=agno_docs)
 
-The public example requests the most recent 90 days of USD history. Broader history and protected datasets follow the documented access limits.
+The public USD catalogue, recent macro history and release calendar support evaluation without an API key. The history example requests the most recent 90 days. Data availability varies by series; your subscription and its terms govern protected access.
 
 ## Install from source
 
@@ -33,7 +35,7 @@ Every supported REST operation and hosted MCP capability has a separate `fxmd_..
 
 Results include the original response in `data`, a tabular view in `records`, and public source/provider links. Preserve timestamps, units, provenance and forecast labels when writing briefs. Empty records mean no available observations for the query. MCP visual resources remain in the original response; this toolkit does not render MCP Apps.
 
-## Optional authenticated coverage
+## Connect your FXMacroData subscription
 
 Use your own key through `FXMACRODATA_API_KEY` or pass `api_key` from your application's secret manager. Credentials are not tool arguments and must never be put into prompts or checked-in examples. Pass `api_key=""` to force no-key access. Entitlements remain enforced by FXMacroData.
 
