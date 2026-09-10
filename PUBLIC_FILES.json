@@ -1,0 +1,13 @@
+[
+  ".gitignore",
+  "CAPABILITIES.md",
+  "LICENSE",
+  "PUBLIC_FILES.json",
+  "README.md",
+  "examples/usd_macro_brief.py",
+  "pyproject.toml",
+  "src/agno_fxmacrodata/__init__.py",
+  "src/agno_fxmacrodata/py.typed",
+  "src/agno_fxmacrodata/toolkit.py",
+  "tests/test_toolkit.py"
+]
