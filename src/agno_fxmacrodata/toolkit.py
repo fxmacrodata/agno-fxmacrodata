@@ -10,7 +10,7 @@ from fxmacrodata_public import FXMacroDataClient, FXMacroDataError, Operation, l
 
 SITE_URL = (
     "https://fxmacrodata.com/?utm_source=agno&utm_medium=integration"
-    "&utm_campaign=open_source_integrations&utm_content=app"
+    "&utm_campaign=agno-fxmacrodata&utm_content=app"
 )
 
 
